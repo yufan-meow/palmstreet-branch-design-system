@@ -1,1 +1,494 @@
-
+{
+  "Content": {
+    "Content-primary-c1": {
+      "$type": "color",
+      "$value": "{Gray.800}",
+      "$description": "Text 1, icon 1, Content 1. Primary text and icon color.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-primary"
+        }
+      }
+    },
+    "Content-secondary-c2": {
+      "$type": "color",
+      "$value": "{Gray.650}",
+      "$description": "Text 2, icon 2, Content 2. Secondary text and icon color.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-secondary"
+        }
+      }
+    },
+    "Content-tertiary-c3": {
+      "$type": "color",
+      "$value": "{Gray.500}",
+      "$description": "Text 3, icon 3, Content 3. Tertiary text and icon color.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-tertiary"
+        }
+      }
+    },
+    "Content-quaternary-c4": {
+      "$type": "color",
+      "$value": "{Gray.400}",
+      "$description": "Text 4, icon 4, Content 4. Quaternary text and icon color.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-quaternary"
+        }
+      }
+    },
+    "Content-primary-inverse-c1i": {
+      "$type": "color",
+      "$value": "{Gray.50}",
+      "$description": "Text 1i, icon 1i. Primary text and icon color that inverts against the current theme. Appears white on light mode, dark on dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-primary-inverse"
+        }
+      }
+    },
+    "Content-secondary-inverse-c2i": {
+      "$type": "color",
+      "$value": "{Gray.200}",
+      "$description": "Text 2i, icon 2i. Secondary text and icon color that inverts against the current theme. Appears white on light mode, dark on dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-secondary-inverse"
+        }
+      }
+    },
+    "Content-tertiary-inverse-c3i": {
+      "$type": "color",
+      "$value": "{Gray.300}",
+      "$description": "Text 3i, icon 3i. Tertiary text and icon color that inverts against the current theme. Appears white on light mode, dark on dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-tertiary-inverse"
+        }
+      }
+    },
+    "Content-quaternary-inverse-c4i": {
+      "$type": "color",
+      "$value": "{Gray.400}",
+      "$description": "Text 4i, icon 4i. Quaternary text and icon color that inverts against the current theme. Appears white on light mode, dark on dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-quaternary-inverse"
+        }
+      }
+    },
+    "Content-always-white": {
+      "$type": "color",
+      "$value": "{Primary.White}",
+      "$description": "Text white, icon white. Text and icon color that is always white regardless of theme. Use when color must never flip between light and dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-always-white"
+        }
+      }
+    },
+    "Content-always-black": {
+      "$type": "color",
+      "$value": "{Primary.Black}",
+      "$description": "Text black, icon black. Text and icon color that is always black regardless of theme. Use when color must never flip between light and dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-always-black"
+        }
+      }
+    },
+    "Content-Interactive": {
+      "$type": "color",
+      "$value": "{Primary.Palm green}",
+      "$description": "Text interactive, icon interactive. Text and icon color for interactive elements such as links, active tabs, and selected states.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-interactive"
+        }
+      }
+    },
+    "Content-Destructive": {
+      "$type": "color",
+      "$value": "{Function.Red-200}",
+      "$description": "Text destructive, icon destructive. Text and icon color for destructive actions such as delete, remove, and error states.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-destructive"
+        }
+      }
+    },
+    "Content-Success": {
+      "$type": "color",
+      "$value": "{Function.Green-200}",
+      "$description": "Text success, icon success. Text and icon color for success states such as confirmations, completed actions, and positive feedback.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-success"
+        }
+      }
+    },
+    "Content-Warning": {
+      "$type": "color",
+      "$value": "{Function.Yellow-200}",
+      "$description": "Text warning, icon warning. Text and icon color for warning states such as caution messages, alerts, and pending actions.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--content-warning"
+        }
+      }
+    }
+  },
+  "Section": {
+    "Section-0-Basement-s0": {
+      "$type": "color",
+      "$value": "{Primary.White}",
+      "$description": "Section 0, s0. Base page and screen background. The lowest surface level.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-basement"
+        }
+      }
+    },
+    "Section-1-first-floor-s1": {
+      "$type": "color",
+      "$value": "{Gray.50}",
+      "$description": "Section 1, s1. Card, panel, and container background. One level above the base.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-floor-1"
+        }
+      }
+    },
+    "Section-2-second-floor-s2": {
+      "$type": "color",
+      "$value": "{Gray.100}",
+      "$description": "Section 2, s2. Elevated surface background. Use for popovers, dropdowns, and floating elements.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-floor-2"
+        }
+      }
+    },
+    "Section-0-Basement-inverse-s0i": {
+      "$type": "color",
+      "$value": "{Gray.800}",
+      "$description": "Section 0i, s0i. Base background that inverts against the current theme. Appears dark on light mode, light on dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-basement-inverse"
+        }
+      }
+    },
+    "Section-1-first-floor-inverse-s1i": {
+      "$type": "color",
+      "$value": "{Gray.750}",
+      "$description": "Section 1i, s1i. Card and panel background that inverts against the current theme. Appears dark on light mode, light on dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-floor-1-inverse"
+        }
+      }
+    },
+    "Section-2-second-floor-inverse-s2i": {
+      "$type": "color",
+      "$value": "{Gray.700}",
+      "$description": "Section 2i, s2i. Elevated surface background that inverts against the current theme. Appears dark on light mode, light on dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-floor-2-inverse"
+        }
+      }
+    },
+    "Section-Interactive": {
+      "$type": "color",
+      "$value": "{Primary.Light Blush}",
+      "$description": "Section interactive. Background color for interactive states such as hover, focus, and selected surfaces.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-interactive"
+        }
+      }
+    },
+    "Section-Destructive": {
+      "$type": "color",
+      "$value": "{Function.Red-100}",
+      "$description": "Section destructive. Background color for destructive actions such as delete confirmations, error banners, and warning surfaces.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-destructive"
+        }
+      }
+    },
+    "Section-Success": {
+      "$type": "color",
+      "$value": "{Function.Green-100}",
+      "$description": "Section success. Background color for success states such as confirmation banners and completed action surfaces.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-success"
+        }
+      }
+    },
+    "Section-Warning": {
+      "$type": "color",
+      "$value": "{Function.Yellow-100}",
+      "$description": "Section warning. Background color for warning states such as caution banners and alert surfaces.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-warning"
+        }
+      }
+    },
+    "Section-Neon-Green": {
+      "$type": "color",
+      "$value": "{Primary.Grass}",
+      "$description": "Section neon green. Palmstreet primary CTA background. Use for primary buttons and key action surfaces.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-cta"
+        }
+      }
+    },
+    "Scrim-1-heavy": {
+      "$type": "color",
+      "$value": "#00000099",
+      "$description": "Scrim heavy. Heavy overlay background for modals and full-screen overlays.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--scrim-heavy"
+        }
+      }
+    },
+    "Scrim-2-light": {
+      "$type": "color",
+      "$value": "#0000004d",
+      "$description": "Scrim light. Light overlay background for drawers and partial overlays.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--scrim-light"
+        }
+      }
+    },
+    "Section-primary-always-white": {
+      "$type": "color",
+      "$value": "{Primary.White}",
+      "$description": "Section always white. Background that is always white regardless of theme. Use when surface must never flip between light and dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-always-white"
+        }
+      }
+    },
+    "Section-primary-always-black": {
+      "$type": "color",
+      "$value": "{Primary.Black}",
+      "$description": "Section always black. Background that is always black regardless of theme. Use when surface must never flip between light and dark mode.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--section-always-black"
+        }
+      }
+    }
+  },
+  "Line": {
+    "Line": {
+      "$type": "color",
+      "$value": "{Gray.100}",
+      "$description": "Default border and divider color. Use for separating content areas and components.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--border"
+        }
+      }
+    },
+    "Line2": {
+      "$type": "color",
+      "$value": "{Gray.200}",
+      "$description": "Strong border and divider color. Use for emphasized separators and focused states.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--border-strong"
+        }
+      }
+    },
+    "Line-Destructive": {
+      "$type": "color",
+      "$value": "{Function.Red-200}",
+      "$description": "Destructive border color. Use for error state inputs, destructive action borders.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--border-destructive"
+        }
+      }
+    },
+    "Line-Success": {
+      "$type": "color",
+      "$value": "{Function.Green-200}",
+      "$description": "Success border color. Use for success state inputs and confirmed action borders.",
+      "$extensions": {
+        "com.figma.codeSyntax": {
+          "Web": "--border-success"
+        }
+      }
+    }
+  },
+  "Extension": {
+    "Cyan": {
+      "content": {
+        "$type": "color",
+        "$value": "#0891b2",
+        "$description": "Cyan content color. Use for text and icons in cyan-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-cyan" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "#cffafe",
+        "$description": "Cyan background color. Use for surfaces in cyan-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-cyan" } }
+      }
+    },
+    "Teal": {
+      "content": {
+        "$type": "color",
+        "$value": "#0d9488",
+        "$description": "Teal content color. Use for text and icons in teal-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-teal" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "#ccfbf1",
+        "$description": "Teal background color. Use for surfaces in teal-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-teal" } }
+      }
+    },
+    "Emerald": {
+      "content": {
+        "$type": "color",
+        "$value": "{Primary.Palm green}",
+        "$description": "Emerald content color. Use for text and icons in emerald-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-emerald" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{Creative.Green.green-1}",
+        "$description": "Emerald background color. Use for surfaces in emerald-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-emerald" } }
+      }
+    },
+    "Amber": {
+      "content": {
+        "$type": "color",
+        "$value": "{Function.Yellow-200}",
+        "$description": "Amber content color. Use for text and icons in amber-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-amber" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "#fef3c7",
+        "$description": "Amber background color. Use for surfaces in amber-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-amber" } }
+      }
+    },
+    "Sky": {
+      "content": {
+        "$type": "color",
+        "$value": "{Function.Blue-200}",
+        "$description": "Sky content color. Use for text and icons in sky-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-sky" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "#e0f2fe",
+        "$description": "Sky background color. Use for surfaces in sky-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-sky" } }
+      }
+    },
+    "Rose": {
+      "content": {
+        "$type": "color",
+        "$value": "{Function.Red-200}",
+        "$description": "Rose content color. Use for text and icons in rose-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-rose" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "#ffe4e6",
+        "$description": "Rose background color. Use for surfaces in rose-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-rose" } }
+      }
+    },
+    "Pink": {
+      "content": {
+        "$type": "color",
+        "$value": "{Creative.Pink.pink-7}",
+        "$description": "Pink content color. Use for text and icons in pink-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-pink" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{Creative.Pink.pink-1}",
+        "$description": "Pink background color. Use for surfaces in pink-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-pink" } }
+      }
+    },
+    "Purple": {
+      "content": {
+        "$type": "color",
+        "$value": "{Primary.Purple}",
+        "$description": "Purple content color. Use for text and icons in purple-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-purple" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "#f3e8ff",
+        "$description": "Purple background color. Use for surfaces in purple-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-purple" } }
+      }
+    },
+    "Orange": {
+      "content": {
+        "$type": "color",
+        "$value": "{Function.Orange-200}",
+        "$description": "Orange content color. Use for text and icons in orange-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-orange" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "#ffedd5",
+        "$description": "Orange background color. Use for surfaces in orange-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-orange" } }
+      }
+    },
+    "Neon-green": {
+      "content": {
+        "$type": "color",
+        "$value": "{Creative.Neon green.neon green-9}",
+        "$description": "Neon green content color. Use for text and icons on neon green surfaces.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-neon-green" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{Primary.Grass}",
+        "$description": "Neon green background color. Palmstreet brand color for highlighted surfaces.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-neon-green" } }
+      }
+    },
+    "Green": {
+      "content": {
+        "$type": "color",
+        "$value": "{Primary.Mossy green}",
+        "$description": "Green content color. Use for text and icons in green-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--content-green" } }
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{Creative.Green.green-1}",
+        "$description": "Green background color. Use for surfaces in green-themed contexts.",
+        "$extensions": { "com.figma.codeSyntax": { "Web": "--section-green" } }
+      }
+    }
+  }
+}
